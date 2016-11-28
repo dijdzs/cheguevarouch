@@ -22,7 +22,62 @@
       <p>Salut la france inter </p>
 
 <p><img src="https://github.com/unicorn.png" alt="My Unicorn">
-<img src="200px-Homemade_marmalade,_England.jpg" alt="marmelade"></p>
+<img src="200px-Homemade_marmalade,_England.jpg" alt="marmelade">
+`</p><div id="qz_div">
+                                <a id="qz_link" href="XXXXXXXXXXXXXXXX">quiz</a> est en train de charger depuis Quizity.com, le site pour <a href="http://fr.quizity.com/create/quiz/0/">créer un quiz</a>, veuillez patienter...
+                            </div>
+
+<pre><code>                        &lt;div id="qz_ranking_container" style="display: none;"&gt;
+                            &lt;div id="qz_ranking"&gt;&lt;/div&gt;
+                        &lt;/div&gt;
+
+                        &lt;script&gt;
+
+                            //Cette ligne est obligatoire pour utiliser une ou plusieurs options
+                            var quizity = {};
+
+                            //Votre identifiant de référent qui vous a été donné sur Quizity.com (cf. page pour les développeurs). Ce numéro unique sert à déterminer quels sont les joueurs qui ont joué depuis votre site (pour créer un classement local + vous donner des statistiques). Par défaut : null
+                            quizity.rid = null;
+                            //Langue utilisée pour afficher les instructions dans l'interface. Par défaut : "en"
+                            quizity.hl = "fr";
+                            //Thème graphique de l'interface. Utilisez 1 si l'arrière-plan de votre site est clair, 2 s'il est foncé. Par défaut : 1
+                            quizity.theme = 1;
+                            //Afficher le quiz en marque blanche. Par défaut: false
+                            quizity.whiteLabel = false;
+                            //Recharger la page au cours du quiz. Par défaut: false
+                            quizity.reloadPage = false;
+                            //Recharger la page sans modifier son URL. Par défaut: false
+                            quizity.preserveQueryString = false;
+                            //Désactiver l'utilisation d'une ancre pendant le quiz. Par défaut: false
+                            quizity.preserveHash = false;
+
+                            //Cette ligne est obligatoire pour utiliser une ou plusieurs options du classement
+                            quizity.ranking = {};
+                            //Affichage du classement. Utiliser 0 pour "jamais", 1 pour "toujours", 2 pour "après avoir répondu au quiz". Par défaut : 1
+                            quizity.ranking.display = 1;
+                            //N'afficher dans le classement que les joueurs qui ont joué au quiz sur votre site. Par défaut : false
+                            quizity.ranking.local = false;
+                            //Le critère de classement. Utilisez 1 pour trier les joueurs par score décroissant, 2 pour un tri par ordre antéchronologique (affiche les joueurs les plus récents). Par défaut : 1
+                            quizity.ranking.criteria = 1;
+                            //Le nombre maximal de lignes affichées dans le classement. Actuellement limité à 20. Par défaut : 10
+                            quizity.ranking.maxPlayers = 10;
+                            //Ne pas afficher du tout le classement s'il est vide. Par défaut : false
+                            quizity.ranking.hideIfEmpty = false;
+                            //Si vous souhaitez définir vous-même l'attribut ID de la balise HTML qui contient le widget de classement. Cf Quizity.com pour l'utilité de cette option. Par défaut : "qz_ranking_container"
+                            quizity.ranking.container = "qz_ranking_container";
+                            //Ne pas afficher de ligne vide dans le classement. Par défaut : false
+                            quizity.ranking.noEmptyLines = false;
+                            //Utiliser vos propres feuilles de style CSS pour le design du classement. Fixez la valeur à true, false ou le chemin d'un fichier CSS. Cf Quizity.com. Par défaut : false
+                            quizity.ranking.customCSS = false;
+                            //Enlever la première ligne du classement qui contient le titre. Par défaut : false
+                            quizity.ranking.skipHeader = false;
+                            //Afficher un lien cliquable sur le nom de joueurs dans le classement, qui ouvre une nouvelle fenêtre sur la page de profil du membre en question. Par défaut : false
+                            quizity.ranking.links = false;
+
+                        &lt;/script&gt;
+
+                        &lt;script type="text/javascript" src="http://staticp.quizity.net/js/embed_quiz.js"&gt;&lt;/script&gt;`
+</code></pre>
 
       <footer class="site-footer">
         <span class="site-footer-owner"><a href="https://github.com/dijdzs/cheguevarouch">Marmelade new</a> is maintained by <a href="https://github.com/dijdzs">dijdzs</a>.</span>
